@@ -388,6 +388,9 @@ MonoBehaviour:
   enemy: {fileID: 4719930550353046921, guid: 34f982f908282425e85f17aab78e5a0b, type: 3}
   spawnedEnemy: {fileID: 4719930550353046921, guid: 34f982f908282425e85f17aab78e5a0b,
     type: 3}
+  partyHat: {fileID: 9055817469080827956, guid: 332a6a14085b74fdd9c8f81357a61185,
+    type: 3}
+  topHat: {fileID: 2394185961606616943, guid: 774a4248793f3461bb91a4fe8170cdd7, type: 3}
   target: {fileID: 583873219}
   scoreManager: {fileID: 830851599}
 --- !u!4 &254023580
@@ -1110,7 +1113,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.33333334, g: 0.6156863, b: 0.2509804, a: 1}
+  m_BackGroundColor: {r: 0.50980395, g: 0.64705884, b: 0.99607843, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1391,7 +1394,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b07ae6c05c934aa5b6f76779541579f, type: 2}
+  - {fileID: 2100000, guid: 7b99aa817e6504418942209390b2b2a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1576,6 +1579,18 @@ PrefabInstance:
       propertyPath: door
       value: 
       objectReference: {fileID: 186469680}
+    - target: {fileID: 8578405399729374060, guid: ac781b4bb50cc46e9b50cf73695230d3,
+        type: 3}
+      propertyPath: partyHat
+      value: 
+      objectReference: {fileID: 9055817469080827956, guid: 332a6a14085b74fdd9c8f81357a61185,
+        type: 3}
+    - target: {fileID: 8578405399729374060, guid: ac781b4bb50cc46e9b50cf73695230d3,
+        type: 3}
+      propertyPath: topHat
+      value: 
+      objectReference: {fileID: 2394185961606616943, guid: 774a4248793f3461bb91a4fe8170cdd7,
+        type: 3}
     - target: {fileID: 3534466197420468496, guid: ac781b4bb50cc46e9b50cf73695230d3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1684,12 +1699,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e99f1a82464c645e9bfa48b8f5938064, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4719930551816515174, guid: 34f982f908282425e85f17aab78e5a0b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e99f1a82464c645e9bfa48b8f5938064, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f982f908282425e85f17aab78e5a0b, type: 3}
 --- !u!1001 &9222920271727967980
@@ -1763,6 +1778,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 36106ab2eff964a42843dab2fdfe9571, type: 2}
+      objectReference: {fileID: 2100000, guid: e20f54d7951954b65b0c571ab9c11171, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2ce6f1cec9384fe8956d0d2c8f5330a, type: 3}

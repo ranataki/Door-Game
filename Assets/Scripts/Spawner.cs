@@ -9,6 +9,8 @@ public class Spawner : MonoBehaviour
     public GameObject spawnedGuy;
     public GameObject enemy;
     public GameObject spawnedEnemy;
+    public GameObject partyHat;
+    public GameObject topHat;
 
     public Transform target;
 

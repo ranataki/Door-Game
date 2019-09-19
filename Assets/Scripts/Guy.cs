@@ -8,6 +8,8 @@ public class Guy : MonoBehaviour
     public GameObject target;
     public GameObject guyBody1;
     public GameObject guyBody2;
+    public GameObject partyHat;
+    public GameObject topHat;
 
     public float speed;
 
@@ -21,6 +23,17 @@ public class Guy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        int rand = Random.RandomRange(0, 2);
+        if (rand == 1)
+        {
+            partyHat.SetActive(true);
+            topHat.SetActive(false);
+        }
+        else
+        {
+            partyHat.SetActive(false);
+            topHat.SetActive(true);
+        }
         GetComponent<BoxCollider>().enabled = true;
         touchingTarget = false;
         touchingDoor = false;
